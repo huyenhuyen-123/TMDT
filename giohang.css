@@ -1,0 +1,11 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.name{
+    text-align: center;
+    background-color: deepskyblue;
+}
+.sanpham{
+    line-height: -20px;
+}

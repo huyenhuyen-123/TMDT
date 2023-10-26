@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="giohang.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 class="name">Cửa hàng trái cây</h1>
+        <label style="color: black;"><b>Danh sách sản phẩm</b></label>
+        <div>
+            <div class="product">
+                <p>Thơm - $3.00
+                    <button style="margin-left: 13px;" onclick="addToCart('Thơm')"> Thêm</button>
+                </p>
+            </div>
+
+            <div class="product">
+                <p>Mận - $2.50
+                    <button style="margin-left: 20px;" onclick="addToCart('Mận')"> Thêm</button>
+                </p>
+            </div>
+
+            <div class="product">
+                <p>Đào - $1.75
+                    <button style="margin-left: 20px;" onclick="addToCart('Đào')"> Thêm</button>
+                </p>
+            </div>
+        </div>
+
+        <h2>Giỏ hàng</h2>
+        <div id="cart-items">
+            <ul></ul>
+            <button onclick="placeOrder()">Đặt hàng</button>
+        </div>
+    </div>
+    
+    <div class="section" id="orderSummary" style="display: none;">
+        <h3>Thông tin đặt hàng:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Giá</th>
+                </tr>
+            </thead>
+            <tbody id="orderDetails"></tbody>
+        </table>
+        <p id="totalPrice">Tổng tiền: $0</p>
+        
+    </div>
+
+    <script src="giohang.js"></script>
+</body>
+</html>
+

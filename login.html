@@ -16,15 +16,18 @@ rel="stylesheet">
 
         <form id="loginForm">
                 <label >Tên người dùng:</label>
-                <input type="text" id="username" placeholder="username" required>
+                <input style="text-align: left;" type="text" id="username" placeholder="username" required>
                 <label for="password">Mật khẩu:</label>
-                <input type="password" id="password" placehorder="password" required>
-                    <i class="fas fa-eye" style="position: relative; left:-30px;cursor: pointer;"></i>
-            
-                <input type="submit" value="Đăng nhập">
+                <input style="text-align: left;" type="password" id="password" placehorder="password"  required >
+                    <i class="fas fa-eye" style="position: relative;margin:-30px;cursor: pointer;" onclick="eye()"></i>
+                <input style=" margin-top: 30px" type="submit" value="Đăng nhập">
         
         </form>
     </div>
+
+
     <script src="login.js"></script>
+
+
 </body>
 </html>
