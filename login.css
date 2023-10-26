@@ -1,0 +1,38 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+.login{
+    text-align: left;
+    color :black;
+    margin-top: 100px;
+    width : 300px;
+    border : 1px solid black;
+    padding : 70px;
+    margin : 10% auto;
+    line-height: 40px;
+    border-radius: 15px;
+    background-color:cornflowerblue;
+    
+}
+
+.login h1 {
+    text-align: center;
+}
+
+.body{
+    text-align: center;
+    line-height: 150%;
+
+}
+
+input{
+    width : 100%;
+    padding : 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
