@@ -9,23 +9,23 @@
 <body>
     <div>
         <h1 class="name">Cửa hàng trái cây</h1>
-        <label style="color: black;"><b>Danh sách sản phẩm</b></label>
+        <h2 style="color: black;"><b>Danh sách sản phẩm</b></h2>
         <div>
             <div class="product">
                 <p>Thơm - $3.00
-                    <button style="margin-left: 13px;" onclick="addToCart('Thơm')"> Thêm</button>
+                    <button style="margin-left: 12px;" onclick="addToCart('Thơm')"> Thêm</button>
                 </p>
             </div>
 
             <div class="product">
-                <p>Mận - $2.50
-                    <button style="margin-left: 20px;" onclick="addToCart('Mận')"> Thêm</button>
+                <p>Xoài - $2.50
+                    <button style="margin-left: 20px;" onclick="addToCart('Xoài')"> Thêm</button>
                 </p>
             </div>
 
             <div class="product">
-                <p>Đào - $1.75
-                    <button style="margin-left: 20px;" onclick="addToCart('Đào')"> Thêm</button>
+                <p>Đu đủ - $1.75
+                    <button style="margin-left: 12px;" onclick="addToCart('Đu đủ')"> Thêm</button>
                 </p>
             </div>
         </div>
@@ -38,7 +38,7 @@
     </div>
     
     <div class="section" id="orderSummary" style="display: none;">
-        <h3>Thông tin đặt hàng:</h3>
+        <h3 id="dathang">Thông tin đặt hàng</h3>
         <table>
             <thead>
                 <tr>
